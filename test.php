@@ -9,7 +9,7 @@ print_r('<pre>');
 require_once __DIR__ . "/RestClient.php";
 require_once __DIR__ . "/HttpClient.php";
 
-$client = new RestClient('https://imp.bg/api/web/1/');
+$client = new RestClient('https://test.bg/api/web/1/');
 $client->username = 'test1';
 $client->password = 'test1';
 
